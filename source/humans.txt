@@ -1,0 +1,4 @@
+# humanstxt.org
+Designed and developed by:
+	Shaun O'Connell @ndorfin
+

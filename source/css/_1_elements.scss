@@ -1,0 +1,19 @@
+* {box-sizing:border-box;}
+	html {}
+		body {font:16px/1.2 'Open Sans', 'Droid Sans', sans-serif; margin:0; -webkit-font-smoothing:subpixel-antialiased; }
+			a {
+				&:link {color:#6ac;}
+				&:link:visited {color:mix(#6ac,#000, 50%);}
+				img {border:none;}
+			}
+			figure {margin:0;}
+			p {}
+			body > header > *,
+			main > *,
+			body > footer > * {max-width:800px; margin-left:auto; margin-right:auto;}
+			body > header {border-bottom:#eee solid 1px;}
+			main {
+				* {margin-top:0;}
+				* + * {margin-top:1em;}
+			}
+
