@@ -1,0 +1,27 @@
+{
+  "name": "website",
+  "version": "0.0.0",
+  "description": "Well-FED website repo",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "webpack": "webpack --config ./config/webpack.config.js",
+    "start": "npm run webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Well-FED/website.git"
+  },
+  "keywords": [
+    "website"
+  ],
+  "author": "Shaun O'Connell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Well-FED/website/issues"
+  },
+  "homepage": "https://github.com/Well-FED/website#readme",
+  "devDependencies": {
+    "webpack": "^3.6.0"
+  }
+}
